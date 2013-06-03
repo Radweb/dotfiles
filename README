@@ -1,0 +1,6 @@
+Clone into your home directory. Then add alises to your .bash_profile
+
+echo "[[ -s ~/dotfiles/aliases ]] && source ~/dotfiles/aliases" >> ~/.bash_profile
+
+Adapted from danharper/dotfiles
+
