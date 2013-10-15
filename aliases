@@ -67,6 +67,10 @@ function fuellog() {
 	fi
 }
 
+function laralog() {
+    tail -f "app/storage/logs/log-fpm-fcgi-"`eval date +%Y`"-"`eval date +%m`"-"`eval date +%d`".txt"
+}
+
 # show time since UNIX epoch - copy to clipboard on Mac
 function unixtime() {
 	date +%s && date +%s | pbcopy
